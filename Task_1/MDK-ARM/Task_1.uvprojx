@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\Components\Leds;..\Components\Button</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\Components\Leds;..\Components\Button;..\BL\Garland</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -533,6 +533,21 @@
               <FileName>button.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Components\Button\button.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BL/Garland</GroupName>
+          <Files>
+            <File>
+              <FileName>garland.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BL\Garland\garland.c</FilePath>
+            </File>
+            <File>
+              <FileName>garland.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BL\Garland\garland.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1068,6 +1083,21 @@
               <FileName>button.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Components\Button\button.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BL/Garland</GroupName>
+          <Files>
+            <File>
+              <FileName>garland.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BL\Garland\garland.c</FilePath>
+            </File>
+            <File>
+              <FileName>garland.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BL\Garland\garland.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1672,6 +1702,21 @@
               <FileName>button.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Components\Button\button.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BL/Garland</GroupName>
+          <Files>
+            <File>
+              <FileName>garland.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BL\Garland\garland.c</FilePath>
+            </File>
+            <File>
+              <FileName>garland.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BL\Garland\garland.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -52,6 +52,24 @@ void leds_switch(leds_choes_led_e_t choes_led, led_state_e_t state_led)
       leds_state.led_blue = state_led;
       break;
     }
+    case led_red:
+    {
+      HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, pin_led_state);
+      leds_state.led_red = state_led;
+      break;
+    }
+    case led_orange:
+    {
+      HAL_GPIO_WritePin(LED_ORANGE_GPIO_Port, LED_ORANGE_Pin, pin_led_state);
+      leds_state.led_orange = state_led;
+      break;
+    }
+    case led_green:
+    {
+      HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, pin_led_state);
+      leds_state.led_green = state_led;
+      break;
+    }
     default:
     {
     }
